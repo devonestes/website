@@ -16,6 +16,9 @@ class CreateNotification
     new_discussion_post_for_mentor
     new_iteration_for_mentor
     solution_approved
+
+    new_solution_comment_for_solution_user
+    new_solution_comment_for_other_commenter
   }
 
   attr_reader :user, :type, :content, :link, :trigger, :about
