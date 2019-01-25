@@ -44,8 +44,8 @@ install:
   - "npm install"
   - "bundle exec rake db:test:prepare"
 script:
-  - "bundle exec rake test"
-  - "bundle exec rake test:system"
+  - "TESTMETRICS_PROJECT_KEY=MybcV5JjLNv1gBmMWH4S1g bundle exec rake test --testmetrics"
+  - "TESTMETRICS_PROJECT_KEY=R8pHOdRzeEC3pz5WR4sUNg bundle exec rake test:system --testmetrics"
 cache:
   node_modules: true
   directories:

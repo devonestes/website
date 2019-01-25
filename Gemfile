@@ -70,6 +70,7 @@ group :test do
   gem 'chromedriver-helper'
   gem 'webmock'
   gem 'bullet'
+  gem 'testmetrics_minitest'
 end
 
 group :development, :production do
